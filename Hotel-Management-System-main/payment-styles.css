@@ -1,0 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+h1 {
+  color: #333;
+  font-size: 2.5em;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+}
+
+.user-details,
+.payment-section {
+  width: 45%;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  color: #007BFF; /* Blue color */
+  margin-bottom: 20px;
+}
+
+.detail-item,
+.total-amount {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e9f7fe; /* Light blue background for details */
+}
+
+.total-amount {
+  font-weight: bold;
+  font-size: 20px;
+  background-color: #d0e8ff; /* Slightly darker background */
+}
+
+/* New styles for additional user details */
+.detail-item {
+  background-color: #e1f7d5; /* Light green for booking details */
+}
+
+.qr-code {
+  display: block;
+  margin: 20px auto; /* Centers the image horizontally */
+  max-width: 250px; /* Set the maximum width */
+  width: 100%; /* Responsive width */
+  height: auto; /* Maintain the aspect ratio */
+  border: 2px solid #007BFF; /* Blue border around QR code */
+  border-radius: 8px; /* Slightly rounded corners */
+}
+
+.scan-instruction {
+  margin-top: 15px;
+  font-size: 16px;
+  color: #555;
+  font-style: italic;
+  text-align: center;
+}
+
+/* New styles for total days and payment confirmation */
+.total-days {
+  margin-bottom: 15px;
+  font-size: 18px;
+  color: #333;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #e9f7fe; /* Light blue background */
+  font-weight: bold;
+}
